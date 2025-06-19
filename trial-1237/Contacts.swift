@@ -1,5 +1,5 @@
 //
-//  acts.swift
+//  Contacts.swift
 //  trial-1237
 //
 //  Created by ABHINAV ANAND  on 19/06/25.
@@ -35,8 +35,7 @@ struct ContactsApp: App {
     WindowGroup {
         // For now, we'll just show a simple text view.
         // We will replace this with our LoginView in the next step.
-        Text("Welcome to ContactsApp!")
-            .font(.largeTitle)
+        LoginView()
     }
   }
 }
